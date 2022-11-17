@@ -1,0 +1,13 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+}
+/* below use combination class and list by space selector */
+.nav li {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}

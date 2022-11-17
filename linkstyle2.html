@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link style 2</title>
+    <style>
+       /* if you want to give common style then you can give with comma seprator link below  */
+        a:link,
+        a:visited {
+            background-color: greenyellow;
+            color: white;
+            padding: 14px 28px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover,
+        a:active {
+            /* bydefault property of cursor is arrow */
+              cursor: pointer;  /* hand icon comes on link*/
+             /* cursor: progress; it shows progress in circle*/
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <a target="_blank" href="https://www.google.com">click me</a>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.box-model{
+    margin: 5px;
+    border: solid black 10px;
+    width: 80%;
+    height: 600px ;
+    padding: 25px;
+}

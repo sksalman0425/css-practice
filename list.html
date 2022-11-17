@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List style</title>
+    <!-- for roman i ii iii and for different style in ul and ol we make class in style. normally we use id in javascript -->
+    <style>
+        ol.a {
+            list-style-type: circle;
+        }
+        ol.b {
+            list-style-type: square;
+        }
+        ul.a {
+            list-style-type: lower-roman;
+        }
+        ul.b {
+            list-style-type: upper-latin;
+        }
+    </style>
+
+</head>
+<body>
+    <ol class="a">
+        <li>ordered first item</li>
+        <li>ordered second item</li>
+        <li>ordered third item</li>
+        <li>ordered fourth item</li>
+    </ol>
+    <ol class="b">
+        <li>ordered2 first item</li>
+        <li>ordered2 second item</li>
+        <li>ordered2 third item</li>
+        <li>ordered2 fourth item</li>
+    </ol>
+    <ul class="a">
+        <li>unordered first item</li>
+        <li>unordered second item</li>
+        <li>unordered third item</li>
+        <li>unordered fourth item</li>
+    </ul>
+    <ul class="b">
+        <li>unordered2 first item</li>
+        <li>unordered2 second item</li>
+        <li>unordered2 third item</li>
+        <li>unordered2 fourth item</li>
+    </ul>
+</body>
+</html>
