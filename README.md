@@ -1,2 +1,2 @@
-# css-practice2
+# css-practice
 portfolio website
